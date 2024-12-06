@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/Header";
 import AllNews from "./components/AllNews";
 import Footer from "./components/Footer";
 import TopHeadlines from "./components/TopHeadlines";
@@ -18,7 +18,7 @@ function App() {
           <Route path="/country/:iso" element={<CountryNews />} />
         </Routes>
         {/* <Cards />  */}
-        <Footer />  
+        <Footer />
       </BrowserRouter>
     </div>
   );
