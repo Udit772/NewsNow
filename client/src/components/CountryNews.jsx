@@ -25,7 +25,7 @@ function CountryNews() {
     setIsLoading(true);
     setError(null);
     fetch(
-      `https://news-aggregator-dusky.vercel.app/country/${params.iso}?page=${page}&pageSize=${pageSize}`
+      `https://test-4-qs3t.onrender.com/country/${params.iso}?page=${page}&pageSize=${pageSize}`
     )
       .then((response) => {
         if (response.ok) {

@@ -26,7 +26,7 @@ function TopHeadlines() {
     setError(null);
     const categoryParam = params.category ? `&category=${params.category}` : "";
     fetch(
-      `http://localhost:3000/top-headlines?language=en${categoryParam}&page=${page}&pageSize=${pageSize}`
+      `https://test-4-qs3t.onrender.com/top-headlines?language=en${categoryParam}&page=${page}&pageSize=${pageSize}`
     )
       .then((response) => {
         if (response.ok) {
