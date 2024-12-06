@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--txt);
+
 }
 
 html,
@@ -355,4 +356,17 @@ img {
 
 .linen {
   border-top: 2px solid black;
+}
+
+.backwhite {
+  background-color: white;
+}
+
+.mypluswidth{
+  width:100%;
+}
+
+.header-logo{
+  max-width: 50%;
+  max-height: 50%;
 }

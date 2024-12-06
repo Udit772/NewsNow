@@ -1,7 +1,7 @@
 function Card(props) {
   return (
     <div className="everything-card mt-10">
-      <div className="everything-card flex flex-wrap p-5 gap-1 mb-1">
+      <div className="everything-card flex flex-wrap p-5 gap-1 mb-1 mypluswidth">
         <b className="title">{props.title}</b>
         <div className="everything-card-img mx-auto">
           <img className="everything-card-img" src={props.imgUrl} alt="img" />

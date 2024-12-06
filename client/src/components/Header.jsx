@@ -25,7 +25,7 @@ function Header() {
       <nav className="fixed top-0 heading left-0 w-full h-auto z-10 flex items-center justify-around black">
         <h3 className="relative heading flex items-center font-bold text-black md:basis-1/6 text-2xl xs:basis-4/12 z-50 mb-5 mt-5 white space-normal">
           <span>
-            <img src={logo} alt="" className="w-14" />
+            <img src={logo} alt="" className="w-16" />
           </span>
           NewsNow
         </h3>
@@ -33,7 +33,7 @@ function Header() {
         <ul
           className={
             active
-              ? "nav-ul flex gap-11 md:gap-14 xs:gap-12 lg:basis-3/6 md:basis-4/6 md:justify-end active  "
+              ? "nav-ul flex gap-11 md:gap-14 xs:gap-12 lg:basis-3/6 md:basis-4/6 md:justify-end active  black"
               : " nav-ul flex gap-14 lg:basis-3/6 md:basis-4/6 justify-end"
           }
         >
@@ -154,16 +154,16 @@ function Header() {
         <div
           className={
             active
-              ? "ham-burger z-index-100 ham-open"
+              ? "ham-burger z-index-100 ham-open "
               : "ham-burger z-index-100"
           }
           onClick={() => {
             setActive(!active);
           }}
         >
-          <span className="lines line-1"></span>
-          <span className="lines line-2"></span>
-          <span className="lines line-3"></span>
+          <span className="lines line-1 backwhite"></span>
+          <span className="lines line-2 backwhite"></span>
+          <span className="lines line-3 backwhite"></span>
         </div>
       </nav>
     </header>
