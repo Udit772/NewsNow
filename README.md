@@ -17,7 +17,7 @@ NewsNow is a real-time news aggregator web application that brings you the lates
 ## Live Demo
 
 Check out the live demo of the project hosted on Vercel:  
-[NewsNow](https://news-p851i75kb-udit-singhs-projects-8081baa5.vercel.app)
+[NewsNow](https://news-54p4nc2u3-udit-singhs-projects-8081baa5.vercel.app/)
 
 ## Installation
 
