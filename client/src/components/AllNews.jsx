@@ -22,7 +22,7 @@ function AllNews() {
   useEffect(() => {
     setIsLoading(true);
     setError(null);
-    fetch(`https://test-4-qs3t.onrender.com/all-news?page=${page}&pageSize=${pageSize}`)
+    fetch(`https://newsnow-b3l7.onrender.com/all-news?page=${page}&pageSize=${pageSize}`)
       .then((response) => {
         if (response.ok) {
           return response.json();
